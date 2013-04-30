@@ -166,8 +166,8 @@ limitations under the License.
 		</CreateProperty>
 
 		<MakeDir Directories="$(NuSpecDir)/lib/NET35" />
-		<MakeDir Directories="$(NuSpecDir)/lib/NET40cp" />
-		<MakeDir Directories="$(NuSpecDir)/lib/SL4" />
+		<MakeDir Directories="$(NuSpecDir)/lib/NET40" />
+		<MakeDir Directories="$(NuSpecDir)/lib/NET45" />
 
 		<CreateProperty Value="$(NuSpecDir)/$(ProjectName).nuspec">
 			<Output PropertyName="NuSpecFile" TaskParameter="Value"/>
